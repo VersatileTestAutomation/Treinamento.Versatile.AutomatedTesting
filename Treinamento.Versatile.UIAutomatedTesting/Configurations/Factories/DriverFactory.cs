@@ -13,6 +13,8 @@ namespace Treinamento.Versatile.UIAutomatedTesting.Configurations.Factories
 
         public DriverFactory() { }
 
+        public DriverFactory(IWebDriver driver) => _driver = driver;
+
         public IWebDriver CreateDriver(string browser = null)
         {
             browser ??= "chrome";

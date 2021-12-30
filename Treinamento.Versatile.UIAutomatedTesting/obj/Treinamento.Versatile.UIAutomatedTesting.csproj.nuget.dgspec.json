@@ -53,7 +53,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.11.0, )"
+              "version": "[17.0.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -61,7 +61,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.2.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -73,7 +73,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[94.0.4606.6100, )"
+              "version": "[96.0.4664.4500, )"
             },
             "Selenium.WebDriver.Extensions": {
               "target": "Package",
@@ -81,15 +81,15 @@
             },
             "Selenium.WebDriver.GeckoDriver": {
               "target": "Package",
-              "version": "[0.30.0, )"
+              "version": "[0.30.0.1, )"
             },
             "Selenium.WebDriver.IEDriver": {
               "target": "Package",
-              "version": "[3.150.1.2, )"
+              "version": "[4.0.0, )"
             },
             "Selenium.WebDriver.MSEdgeDriver": {
               "target": "Package",
-              "version": "[94.0.992.38, )"
+              "version": "[96.0.1054.26, )"
             },
             "Selenium.WebDriver.MicrosoftWebDriver": {
               "target": "Package",
@@ -97,11 +97,11 @@
             },
             "SpecFlow": {
               "target": "Package",
-              "version": "[3.9.22, )"
+              "version": "[3.9.40, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.9.22, )"
+              "version": "[3.9.40, )"
             }
           },
           "imports": [

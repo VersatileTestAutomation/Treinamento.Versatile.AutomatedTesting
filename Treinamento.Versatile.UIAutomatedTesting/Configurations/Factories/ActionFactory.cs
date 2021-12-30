@@ -9,7 +9,9 @@ using System.Linq;
 namespace Treinamento.Versatile.UIAutomatedTesting.Configurations.Factories
 {
     public class ActionFactory : DriverFactory
-    {        
+    {
+        public ActionFactory(IWebDriver driver) : base(driver) { }
+
         /// <summary>
         /// Method waiting for the element to exist
         /// </summary>
