@@ -41,5 +41,33 @@ namespace Treinamento.Versatile.UIAutomatedTesting.Pages
             return new HomePage(Driver());
         }
 
+        public void ValidateInvalidLogin()
+        {
+            Click(EntrarBtn);
+            ExistsElement(
+                By.XPath("//div[contains(text(),'" + Messages.InvalidLogin + "')]"),
+                "Invalid login message was not displayed"
+            );
+        }
+
+        public void ValidateMandatoryFields(string email, string password)
+        {
+            Click(EntrarBtn);
+            if (string.IsNullOrEmpty(email))
+            {
+                ExistsElement(
+                    By.XPath("//div[contains(text(), 'Email é um " + Messages.MandatoryField + "')]"),
+                    "No mandatory email message was displayed"
+                );
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                ExistsElement(
+                    By.XPath("//div[contains(text(), 'Senha é um " + Messages.MandatoryField + "')]"),
+                    "No mandatory password message was displayed"
+                );
+            }
+        }
+
     }
 }

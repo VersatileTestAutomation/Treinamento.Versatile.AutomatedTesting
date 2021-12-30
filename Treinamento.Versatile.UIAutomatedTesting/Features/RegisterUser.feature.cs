@@ -166,16 +166,16 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
 this.FeatureBackground();
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "name",
                             "email",
                             "password"});
-                table4.AddRow(new string[] {
+                table7.AddRow(new string[] {
                             "Fabio Alves",
                             "fabioaraujo.alves@email.com",
                             "123456"});
 #line 22
- testRunner.And("that the user inform the necessary data for registration", ((string)(null)), table4, "And ");
+ testRunner.And("that the user inform the necessary data for registration", ((string)(null)), table7, "And ");
 #line hidden
 #line 25
  testRunner.Then("the user is informed that there is already a registered record for this email", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
